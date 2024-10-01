@@ -11,11 +11,11 @@ document.getElementById('loginBtn').addEventListener('click', function() {
     }
 
     // Simulación de autenticación
-    if (username === 'admin' && password === '1234') {
+    if (username === 'cafetal' && password === 'kalcorkye') {
         status.textContent = 'Inicio de sesión exitoso. Redirigiendo...';
         status.style.color = 'green';
         setTimeout(() => {
-            window.location.href = 'home.html'; // Reemplaza con la IP y puerto de tu servidor
+            window.location.href = 'administracion.html'; // Reemplaza con la IP y puerto de tu servidor
         }, 2000);
     } else {
         status.textContent = 'Usuario o contraseña incorrectos.';
